@@ -2,9 +2,6 @@
 
 Raconteur Media Ltd Design Tokens.
 
--   [Edit](src/raconteur-theme.js)
--   [Export](index.js)
-
 ## Installation
 
 `$ npm install @raconteur-media/desing-tokens`
@@ -33,7 +30,6 @@ Or add this package to your `package.json` file:
 │   ├── rac-dsm-theme.js        // DSM Raconteur Design Tokens in ES format
 │   ├── rac-dsm-theme.json      // DSM Raconteur Design Tokens in JSON format
 │   └── rac-dsm-theme.scss      // DSM Raconteur Design Tokens in SASS format
-├── node_modules [237 entries exceeds filelimit, not opening dir]
 ├── package.json
 ├── scripts
 │   ├── js-to-scss.js
@@ -43,7 +39,6 @@ Or add this package to your `package.json` file:
 ├── src
 │   ├── raconteur-theme.js      // Theme UI Raconteur Design Tokens
 │   └── style-data.json         // DSM Design Tokens
-└── yarn.lock
 ```
 
 ### Build
