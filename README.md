@@ -24,7 +24,7 @@ Or add this package to your `package.json` file:
 
 ```
 "dependencies": {
-    "@raconteur-media/desing-tokens": "2.0.0"
+    "@raconteur-media/desing-tokens": "1.0.0"
   }
 ```
 
