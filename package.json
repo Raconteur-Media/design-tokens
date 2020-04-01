@@ -1,28 +1,19 @@
 {
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/@yumyo"
-	},
-	"name": "@raconteur-media/desing-tokens",
-	"repository": "https://github.com/Raconteur-Media/desing-tokens.git",
+	"name": "@raconteur-media/design-tokens",
 	"version": "1.0.0",
 	"description": "A package to distrubbute Raconteur Media designn tokens",
 	"main": "dist/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"clean": "rm -rf ./dist && mkdir dist",
-		"dsm:get-sass": "curl https://projects.invisionapp.com/dsm-export/raconteur/raconteur/_style-params.scss?key=SJgKxyCk_X -o dist/rac-dsm-theme.scss",
-		"dsm:get-json": "invision-dsm-utils download json src",
-		"dsm:get": "run-s dsm:get-sass dsm:get-json",
-		"dsm:to-theme-es": "invision-dsm-utils transform src/style-data.json dist/rac-dsm-theme.js && cp src/style-data.json dist/rac-dsm-theme.json",
-		"dsm:to-theme-common-js": "npx babel --plugins @babel/plugin-transform-modules-commonjs dist/rac-dsm-theme.js -o dist/rac-dsm-theme.cjs",
-		"dsm": "run-s clean dsm:get dsm:to-theme-es dsm:to-theme-common-js",
-		"theme:init": "cp src/raconteur-theme.js dist/index.js && npx babel --plugins @babel/plugin-transform-modules-commonjs dist/index.js -o dist/index.cjs",
-		"theme:json": "node scripts/theme-to-json.js",
-		"theme:sass": "node scripts/js-to-scss.js",
-		"theme:cssvars": "node scripts/theme-to-custom-properties.js",
-		"theme:pretty": "npx prettier --write dist/index.scss && npx prettier --write dist/index.json",
-		"theme": "run-s theme:init theme:sass theme:json theme:cssvars theme:pretty"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Raconteur-Media/desing-tokens.git"
 	},
+	"bugs": {
+		"url": "https://github.com/Raconteur-Media/desing-tokens/issues"
+	},
+	"homepage": "https://github.com/Raconteur-Media/desing-tokens#readme",
+	"keywords": [
+		"raconteur"
+	],
 	"author": "Nicola Pernice",
 	"license": "MIT",
 	"devDependencies": {
@@ -38,5 +29,21 @@
 	},
 	"resolutions": {
 		"**/**/fsevents": "^1.2.9"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"clean": "rm -rf ./dist && mkdir dist",
+		"dsm:get-sass": "curl https://projects.invisionapp.com/dsm-export/raconteur/raconteur/_style-params.scss?key=SJgKxyCk_X -o dist/rac-dsm-theme.scss",
+		"dsm:get-json": "invision-dsm-utils download json src",
+		"dsm:get": "run-s dsm:get-sass dsm:get-json",
+		"dsm:to-theme-es": "invision-dsm-utils transform src/style-data.json dist/rac-dsm-theme.js && cp src/style-data.json dist/rac-dsm-theme.json",
+		"dsm:to-theme-common-js": "npx babel --plugins @babel/plugin-transform-modules-commonjs dist/rac-dsm-theme.js -o dist/rac-dsm-theme.cjs",
+		"dsm": "run-s clean dsm:get dsm:to-theme-es dsm:to-theme-common-js",
+		"theme:init": "cp src/raconteur-theme.js dist/index.js && npx babel --plugins @babel/plugin-transform-modules-commonjs dist/index.js -o dist/index.cjs",
+		"theme:json": "node scripts/theme-to-json.js",
+		"theme:sass": "node scripts/js-to-scss.js",
+		"theme:cssvars": "node scripts/theme-to-custom-properties.js",
+		"theme:pretty": "npx prettier --write dist/index.scss && npx prettier --write dist/index.json",
+		"theme": "run-s theme:init theme:sass theme:json theme:cssvars theme:pretty"
 	}
 }
