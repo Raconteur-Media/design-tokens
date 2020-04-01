@@ -7,17 +7,6 @@ Raconteur Media Ltd Design Tokens.
 
 ## Installation
 
-Before installing, make sure you have an `.npmrc` file at the same level of `package.json` containing:
-
-```
-@yumyo:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=<token>
-```
-
-_See_ "[Configuring npm for use with GitHub Package Registry](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry#authenticating-to-github-package-registry)."
-
-## Usage
-
 `$ npm install @raconteur-media/desing-tokens`
 
 Or add this package to your `package.json` file:
