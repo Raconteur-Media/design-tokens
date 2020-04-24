@@ -1,6 +1,6 @@
 {
     "space": [0, 4, 8, 16, 24, 32, 40],
-    "breakpoints": ["22.5em", "37.5em", "90em"],
+    "breakpoints": ["22.5em", "37.5em", "60em", "90em"],
     "sizes": { "maxWidth": "1050px", "maxWidthCentered": "650px" },
     "fonts": {
         "body": "\"Apercu Pro\", system-ui, -apple-system, sans-serif",

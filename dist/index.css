@@ -8,7 +8,8 @@
 	--rac-space-6: 40px;
 	--rac-breakpoint-0: 22.5em;
 	--rac-breakpoint-1: 37.5em;
-	--rac-breakpoint-2: 90em;
+	--rac-breakpoint-2: 60em;
+	--rac-breakpoint-3: 90em;
 	--rac-size-maxWidth: 1050px;
 	--rac-size-maxWidthCentered: 650px;
 	--rac-font-body: "Apercu Pro", system-ui, -apple-system, sans-serif;

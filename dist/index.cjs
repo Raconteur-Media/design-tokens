@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _default = {
   "space": [0, 4, 8, 16, 24, 32, 40],
-  breakpoints: ['22.5em', '37.5em', '90em'],
+  breakpoints: ['22.5em', '37.5em', '60em', '90em'],
   sizes: {
     maxWidth: '1050px',
     maxWidthCentered: '650px'

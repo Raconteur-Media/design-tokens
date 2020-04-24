@@ -8,7 +8,7 @@ export default {
         32,
         40
     ],
-    breakpoints: ['22.5em','37.5em', '90em',],
+    breakpoints: ['22.5em','37.5em', '60em', '90em',],
     sizes: {
         maxWidth: '1050px',
         maxWidthCentered: '650px',
