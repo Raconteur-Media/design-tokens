@@ -14,3 +14,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - README amends
+
+## [1.0.6] - 1 May 2020
+
+### Added
+
+- Add alternate font family
+
+### Changed
+
+- Tweak desktop breakpoint to 83em

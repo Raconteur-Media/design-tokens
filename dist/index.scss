@@ -1,12 +1,13 @@
 $rac-space: (0, 4, 8, 16, 24, 32, 40);
-$rac-breakpoints: (22.5em, 37.5em, 60em, 90em);
-$rac-sizes-maxWidth: 1050px;
-$rac-sizes-maxWidthCentered: 650px;
-$rac-fonts-body: 'Apercu Pro', system-ui, -apple-system, sans-serif;
+$rac-breakpoints: (22.5em, 37.5em, 60em, 83em);
+$rac-sizes-maxWidth: 917px;
+$rac-sizes-maxWidthCentered: 709px;
+$rac-fonts-body: 'Apercu-Light', system-ui, -apple-system, sans-serif;
 $rac-fonts-heading: 'Tiempos Headline', Georgia, serif;
 $rac-fonts-monospace: monospace;
+$rac-fonts-alternate: 'Apercu', system-ui, -apple-system, sans-serif;
 $rac-fontSizes: (14, 16, 18, 22, 24, 34, 48, 60, 96);
-$rac-fontWeights-body: 400;
+$rac-fontWeights-body: normal;
 $rac-fontWeights-heading: 300;
 $rac-fontWeights-bold: 800;
 $rac-lineHeights-body: 1.414;

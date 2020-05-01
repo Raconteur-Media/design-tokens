@@ -1,14 +1,15 @@
 {
     "space": [0, 4, 8, 16, 24, 32, 40],
-    "breakpoints": ["22.5em", "37.5em", "60em", "90em"],
-    "sizes": { "maxWidth": "1050px", "maxWidthCentered": "650px" },
+    "breakpoints": ["22.5em", "37.5em", "60em", "83em"],
+    "sizes": { "maxWidth": "917px", "maxWidthCentered": "709px" },
     "fonts": {
-        "body": "\"Apercu Pro\", system-ui, -apple-system, sans-serif",
+        "body": "\"Apercu-Light\", system-ui, -apple-system, sans-serif",
         "heading": "\"Tiempos Headline\", Georgia, serif",
-        "monospace": "monospace"
+        "monospace": "monospace",
+        "alternate": "\"Apercu\", system-ui, -apple-system, sans-serif"
     },
     "fontSizes": [14, 16, 18, 22, 24, 34, 48, 60, 96],
-    "fontWeights": { "body": 400, "heading": 300, "bold": 800 },
+    "fontWeights": { "body": "normal", "heading": 300, "bold": 800 },
     "lineHeights": { "body": 1.414, "heading": 1.333, "subtitle": 1.125 },
     "text": {
         "caption": { "fontWeight": "bold", "fontSize": 0 },

@@ -1,6 +1,6 @@
 {
     "name": "@raconteur-media/design-tokens",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A package to distrubbute Raconteur Media designn tokens",
     "main": "dist/index.js",
     "repository": {

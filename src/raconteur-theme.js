@@ -8,15 +8,16 @@ export default {
         32,
         40
     ],
-    breakpoints: ['22.5em','37.5em', '60em', '90em',],
+    breakpoints: ['22.5em','37.5em', '60em', '83em',],
     sizes: {
-        maxWidth: '1050px',
-        maxWidthCentered: '650px',
+        maxWidth: '917px',
+        maxWidthCentered: '709px',
     },
     "fonts": {
-        body: '"Apercu Pro", system-ui, -apple-system, sans-serif',
+        body: '"Apercu-Light", system-ui, -apple-system, sans-serif',
         heading: '"Tiempos Headline", Georgia, serif',
-        monospace: 'monospace'
+        monospace: 'monospace',
+        alternate: '"Apercu", system-ui, -apple-system, sans-serif',
     },
     "fontSizes": [
         14,
@@ -30,7 +31,7 @@ export default {
         96
     ],
     "fontWeights": {
-        body: 400,
+        body: 'normal',
         heading: 300,
         bold: 800
     },
