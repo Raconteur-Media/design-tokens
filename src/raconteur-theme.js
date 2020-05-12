@@ -15,9 +15,9 @@ export default {
     },
     "fonts": {
         body: '"Apercu-Light", system-ui, -apple-system, sans-serif',
-        bodyItalic: 'apercu-light-italic',
-        bodyBold: 'apercu-bold',
-        bodyBoldItalic: 'apercu-bold-italic',
+        bodyItalic: '"apercu-light-italic", sans-serif',
+        bodyBold: '"apercu-bold", sans-serif',
+        bodyBoldItalic: '"apercu-bold-italic", sans-serif',
         heading: '"Tiempos Headline", Georgia, serif',
         headingAlt: '"Tiempos Headline Light", Georgia, serif', 
         monospace: 'monospace',

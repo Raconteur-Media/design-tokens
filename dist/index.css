@@ -13,9 +13,9 @@
 	--rac-size-maxWidth: 917px;
 	--rac-size-maxWidthCentered: 709px;
 	--rac-font-body: "Apercu-Light", system-ui, -apple-system, sans-serif;
-	--rac-font-bodyItalic: apercu-light-italic;
-	--rac-font-bodyBold: apercu-bold;
-	--rac-font-bodyBoldItalic: apercu-bold-italic;
+	--rac-font-bodyItalic: "apercu-light-italic", sans-serif;
+	--rac-font-bodyBold: "apercu-bold", sans-serif;
+	--rac-font-bodyBoldItalic: "apercu-bold-italic", sans-serif;
 	--rac-font-heading: "Tiempos Headline", Georgia, serif;
 	--rac-font-headingAlt: "Tiempos Headline Light", Georgia, serif;
 	--rac-font-monospace: monospace;
