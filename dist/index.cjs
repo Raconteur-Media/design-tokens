@@ -17,7 +17,6 @@ var _default = {
     bodyBold: '"apercu-bold", sans-serif',
     bodyBoldItalic: '"apercu-bold-italic", sans-serif',
     heading: '"Tiempos Headline", Georgia, serif',
-    headingAlt: '"Tiempos Headline Light", Georgia, serif',
     monospace: 'monospace',
     alternate: '"Apercu", system-ui, -apple-system, sans-serif'
   },

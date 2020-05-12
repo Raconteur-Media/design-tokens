@@ -24,3 +24,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Tweak desktop breakpoint to 83em
+
+## [^1.0.9] - 12 May 2020
+
+### Added
+
+- Covers all fohnt families as defined by design.
